@@ -230,6 +230,8 @@ function clearChoices(){
     $notesForm.reset()
     document.getElementById("notes-fieldset").disabled = true
     document.getElementById("profile").hidden = true
+    // reset the cat fact from step 5
+    $factOutput.textContent = "Page reset completed."
 
     $status.textContent = "Page reset completed."
 
